@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Document</title>
+</head>
+<style>
+*{box-sizing: border-box;}
+body{margin: 0;
+	padding: 0;
+}
+#header{
+  background-color:darkturquoise;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+}
+nav{ 
+  text-align: right;
+  background-color: darkturquoise;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  }
+nav a:hover {
+  background-color: goldenrod;
+}
+
+.box{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-auto-rows:minmax(100px, auto);
+    align-items: stretch;
+
+ }
+.box1{
+      grid-column:1;
+      grid-row:1/9;
+      
+      background:aqua;
+      padding:30px 30px 30px 30px;
+
+    }
+.box1in{
+      grid-column:1;
+      grid-row:2/4;
+      border:1px solid #333;
+      background:cornflowerblue;
+      padding: 10px 10px 10px 10px;
+      height: 200px;
+      font-weight: bold;
+
+}
+ .box2in{
+      grid-column:1;
+      grid-row:2/4;
+      border:1px solid #333;
+      background:cornflowerblue;
+      padding: 10px 10px 10px 10px;
+      height: 200px;
+      font-weight: bold;
+      
+}
+    .box2{
+      grid-column:2/4;
+      grid-row:1/5;
+      background:lightblue;
+      border:6px solid #333;
+      padding: 10px 10px 10px 10px;
+    }
+    .box3{
+      grid-column:2/2;
+      grid-row:5/8;
+      background:grey;
+      padding-top: 10px;
+      
+      
+    }
+    .box4{
+      grid-column:3/4;
+      grid-row:5/8;
+      background:coral;
+      padding-top: 10px;
+}
+    .box5{
+      grid-column:2/4;
+      grid-row:8/9;
+      background:darkslateblue;
+      padding: 10px 10px 10px 10px;
+      font-weight: bold;
+  }
+  @media(max-width:800px)
+     {
+.box{}
+}
+
+@media(max-width:550px)
+     {
+.box{}
+     }
+
+</style>
+<body>
+<div id="header">
+	MY WEBPAGE
+</div>
+<nav>
+      <b><P>TO DOWNLOAD, CLICK ON: -</P>
+      <span style="background:aliceblue;">
+      <a href="https://horriblesubs.cc/">LINK-1</a></span>
+      <span style="background:aliceblue;">
+      <br><br><a href="https://www.crunchyroll.com/videos/anime">LINK-2</a></b>
+      </span></nav>
+ 
+ <div class="box">
+    <div class="box1">
+    	<div class=box1in>
+         1) NARUTO SHIPPUDEN ANIME
+    	</div>
+    	<div class=box2in>
+         2) DRAGON BALL ANIME
+    	</div>
+    </div>
+    <div class="box2">Anime (Japanese: アニメ, pronounced [a.ɲi.me] (About this soundlisten)) is hand-drawn and computer animation originating from Japan. Anime, a term derived from the English word animation, is used in Japanese to describe all animated works, regardless of origin. Outside of Japan, anime can refer either to animated works produced in Japan, or to their common visual style, which has since been adopted by a minority of works produced in other countries.
+
+<br><br>The earliest commercial Japanese animations date to 1917. A characteristic visual style emerged in the 1960s with the works of animator Osamu Tezuka and spread in the second half of the 20th century, developing a wide domestic audience. Anime is typically released theatrically, via television broadcasts, directly to home media, or over the Internet. In addition to original works, anime are often adaptations of Japanese comics (manga), light novels, or video games. Compared to Western animation, anime production typically focuses less on movement, and more on the detail of settings and use of camera effects, including panning, zooming, and angle shots.Diverse art styles are used, and character proportions and features can be quite varied, including characteristically large and emotive eyes. Anime is classified into numerous genres targeting broad and niche demographics.
+
+<br><br>The anime industry in Japan consists of over 430 production studios; major firms include Studio Ghibli, Gainax, and Toei Animation. Since the 1980s, the medium has also seen international success with the rise of foreign dubbed and subtitled programming. As of 2016, anime accounted for 60% of the world's animated television shows.
+    	
+    </div>
+    <div class="box3"><center><U><B>Naruto: Shippuden</B></U></center><br><br>Naruto: Shippuden is an anime series adapted from Part II of Masashi Kishimoto's manga series, with exactly 500 episodes. It is set two and a half years after Part I in the Naruto universe, following the ninja teenager Naruto Uzumaki and his allies. The series is directed by Hayato Date, and produced by Pierrot and TV Tokyo. It began broadcasting on February 15, 2007 on TV Tokyo, and concluded on March 23, 2017.[1][2]
+
+</div>
+    <div class="box4"><center><U><B>Dragon Ball</B></U></center> <br><br>Dragon Ball (Japanese: ドラゴンボール, Hepburn: Doragon Bōru) is a Japanese media franchise created by Akira Toriyama in 1984.Dragon Ball was initially inspired by the classical 16th century Chinese novel Journey to the West, as well as Hong Kong martial arts films. The series follows the adventures of the protagonist, Son Goku, from his childhood through adulthood as he trains in martial arts.</div>
+    <div class="box5"><center>THE END</center></div>
+  </div>	
+  </body>
+</html>
